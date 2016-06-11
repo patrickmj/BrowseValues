@@ -15,7 +15,7 @@ $elementSet = $element->getElementSet();
 
 <li>
 <?php echo apply_filters(
-            array('Display', 'Item', $elementSet->name, $element->name),
+            array('Display', 'Collection', $elementSet->name, $element->name),
             $elText->text,
             array('record' => null, 'element_text' => $elText)
         );
